@@ -1,0 +1,75 @@
+name: Actions
+on: [push]
+env:
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  AWS_DEFAULT_REGION: eu-west-2
+  ECR_PUBLIC_REPO: public.ecr.aws/p2c9o1f7/the-innovation-game
+jobs:
+  Test-Challenge:
+    runs-on: ubuntu-latest
+    if: ${{ github.ref_name != 'main' }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: "6.0.x"
+      - run: dotnet test
+  Test-Algorithm:
+    runs-on: ubuntu-latest
+    if: ${{ github.ref_name != 'main' }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: "6.0.x"
+      - run: |
+          branch=${{ github.ref_name }}
+          if [[ "$branch" =~ ^[0-9a-zA-Z]+/algorithm/[0-9a-zA-Z]+$ ]]; then
+            dotnet build -o app
+            cd app
+            ./Offworld.Runner $(echo $branch | cut -d "/" -f 3) false 10
+          fi
+  Version-Bump:
+    runs-on: ubuntu-latest
+    environment: gate
+    if: ${{ github.ref_name == 'main' }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.BOT_USER_TOKEN }}
+      - id: versioning
+        uses: PaulHatch/semantic-version@v5.0.0-alpha2
+      - uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - uses: aws-actions/amazon-ecr-login@v1
+        id: login-ecr-public
+        with:
+          registry-type: "public"
+      - run: |
+          VERSION=${{ steps.versioning.outputs.version }}
+          REPOSITORY=${ECR_PUBLIC_REPO}/${{ github.event.repository.name }}
+          docker build -t $REPOSITORY:$VERSION .
+          docker push $REPOSITORY:$VERSION
+          docker tag $REPOSITORY:$VERSION $REPOSITORY:latest
+          docker push $REPOSITORY:latest
+      - run: |
+          if [ "$(git rev-list --tags --max-count=1 --count)" -eq "1" ]
+          then
+            LAST_TAG=$(git describe --tags `git rev-list --tags --max-count=1`)
+            git log --pretty=format:'* %s' $LAST_TAG..HEAD >> changelog
+          else
+            git log --pretty=format:'* %s' >> changelog
+          fi
+          echo "CHANGELOG<<EOF" >> $GITHUB_ENV
+          echo "$(cat changelog)" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+      - uses: ncipollo/release-action@v1
+        with:
+          tag: v${{ steps.versioning.outputs.version }}
+          name: Release v${{ steps.versioning.outputs.version }}
+          body: ${{ env.CHANGELOG }}
