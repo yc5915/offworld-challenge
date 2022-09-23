@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Entry>
+    <zType>TEXT_TERRAINCLASS_CUSTOM</zType>
+    <English>Custom</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_UPGRADE_HQ_NAME_LEVEL_TT</zType>
+    <English>You’ll need to upgrade your {0_HQName} {1_HQIcon} to level {2_HQLevel} by clicking the upgrade button {3_upgradeIcon}</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_NOTIFICATION_DEBT_WARNING</zType>
+    <English>You are dangerously close to exceeding the debt limit!</English>
+  </Entry>
+
+  <!-- New Resources-->
+  <Entry>
+    <zType>TEXT_RESOURCE_WATER_SAMPLE</zType>
+    <English>Water Samples</English>
+  </Entry>
+
+  <!-- New Patents-->
+  <Entry>
+    <zType>TEXT_PATENT_SEARCH_FOR_LIFE</zType>
+    <English>Search for Life</English>
+  </Entry>
+
+  <!-- Scenario Shipment Info -->
+  <Entry>
+    <zType>TEXT_HUDINFO_SHIPMENT</zType>
+    <English><![CDATA[Send {0} {1} to Io.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HUDINFO_SHIPMENT_INFO</zType>
+    <English><![CDATA[Fulfill Request: {0_quantity} {1_resourceName} {2_resourceIcon} ({3_timeLeft}s)]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SHIPMENT_COUNTDOWN</zType>
+    <English>Next Shipment Deadline in {0}s</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HUDINFO_SHIPMENT_DESCRIPTION_DEBT</zType>
+    <English><![CDATA[Send a shipment of {0} {1} to fulfill a request. If you fail to fulfill the request by the deadline, you will be saddled with an extra ${2} of debt.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HUDINFO_SHIPMENT_DESCRIPTION_LOSS</zType>
+    <English><![CDATA[Send a shipment of {0} {1} to fulfill a request. If you fail to fulfill the request by the deadline, you will lose.]]></English>
+  </Entry>
+
+  <!-- Scenario Colony Info-->
+  <Entry>
+    <zType>TEXT_MODULE_UNDERGROUND_HOUSING</zType>
+    <English>Subterranean Shelter~Subterranean Shelters~a cluster of Subterranean Shelters</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HUDINFO_HOUSING_INCOME_FIXED</zType>
+    <English><![CDATA[You must keep all habitats supplied for the duration of the mission. As long as you do, you will recreive a fixed amount of money for each resource unit you provide.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HUDINFO_HOUSING_INCOME_MARKET</zType>
+    <English><![CDATA[You must keep all habitats supplied for the duration of the mission. As long as you do, you will recreive money for each resource unit you provide, based on market prices.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HUDINFO_HOUSING_INCOME_CEILING</zType>
+    <English><![CDATA[You must keep all habitats supplied for the duration of the mission. As long as you do, you will recreive money for each resource unit you provide, based on market prices but capped at a certain amount.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HUDINFO_COLONY_PAYMENT_RESOURCE</zType>
+    <English><![CDATA[The colony will pay you {0} for each unit of {1}.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HUDINFO_COLONY_PAYMENT_RESOURCE_CEILING</zType>
+    <English><![CDATA[The colony will pay you a maximum of {0} for each unit of {1}.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HUDINFO_COLONY_PAYMENT_RESOURCE_CEILING_DEBT</zType>
+    <English><![CDATA[For prices above {0}, the colony will charge the excess cost to your debt.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HUDINFO_HOUSING_HUMANITARIAN</zType>
+    <English><![CDATA[You must keep all habitats supplied for the duration of the mission or you will lose.]]></English>
+  </Entry>
+
+  <!-- Scenario Buildings-->
+  <Entry>
+    <zType>TEXT_BUILDING_SCANNER</zType>
+    <English>Scanner</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_BUILDING_SCANNER2</zType>
+    <English>Scanner Lvl2</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_BUILDING_SCANNER3</zType>
+    <English>Scanner Lvl3</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCANNER_UPGRADE</zType>
+    <English>Upgrade the scanner to consume an additional 0.5 power but reveal twice as many tiles each second.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_BUILDINGCLASS_SCANNER</zType>
+    <English>Scanner</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_BUILDINGCLASS_SCANNER_TT_DESC</zType>
+    <English>Reveals undiscovered tiles</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_BUILDING_TOOLSHOP</zType>
+    <English>Toolshop</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_BUILDING_TOOLSHOP2</zType>
+    <English>Toolshop Lvl2</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_BUILDING_TOOLSHOP3</zType>
+    <English>Toolshop Lvl3</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_TOOLSHOP_UPGRADE</zType>
+    <English>Upgrade the toolshop to consume an additional 0.2 power but produce bonus black market items quicker.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_BUILDINGCLASS_TOOLSHOP</zType>
+    <English>Toolshop</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_BUILDINGCLASS_TOOLSHOP_TT_DESC</zType>
+    <English>Produces bonus black market items</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_BUILDING_DRILL</zType>
+    <English>Drill {0}%</English>
+  </Entry>
+  
+  <!-- Generic Goals -->
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA_GOAL_DEADLINE_SOL</zType>
+    <English>Finish by Sol {0}, 0:00</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA_GOAL_DEADLINE_TIME</zType>
+    <English>Finish by {1}</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA_SURVIVE</zType>
+    <English>Avoid getting bought out</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA_SURVIVE_TT</zType>
+    <English><![CDATA[Fend off your opponents until you can accomplish your objectives. Immediate profit isn't always everything, despite what the competition might suggest.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA_SHIPMENTS_TT</zType>
+    <English>You need not satisfy requests to complete your mission, but failing them will increase your debt. Failing the next request will increase your debt by ${0}.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA_GOAL_OFFWORLD_SHIPMENTS</zType>
+    <English>Launch {0} shipments of {1} offworld</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA_GOAL_MODULES</zType>
+    <English><![CDATA[Build <singular_0>{1,0_moduleName}<plural>{0_numBuildings} {1,1_moduleName}<end>]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_GOAL_PROGRESS_DAYS</zType>
+    <English>Sol {0} of {1}</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA_GOAL_DEBT</zType>
+    <English>Manage your debt</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA_GOAL_DEBT_TT</zType>
+    <English>You will lose instantly if your debt exceeds ${0}.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA_LOSS_CHECK_TIME</zType>
+    <English>You ran out of time!</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA_LOSS_TIME</zType>
+    <English>Time's Up!</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA_LOSS_DEBT</zType>
+    <English>You ran out of money!</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA_WIN</zType>
+    <English>Mission Accomplished</English>
+  </Entry>
+
+  <!-- Scenario 1 -->
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_NAME</zType>
+    <English>Surveying the Landscape</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_TT</zType>
+    <English>Explore Europa's landscape and find out what challenges await you</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_DESC</zType>
+    <English><![CDATA[The colonization of Io has gone about as well as could have hoped. We've tapped the moon's rich resources and even managed to establish self-sustaining communities by synthesizing water. Life on Io is still incredibly difficult, though, and it’s about to get harder. Volcanoes near several settlements are showing increasing signs of activity, and many are looking to icy Europa to escape the impending danger.<br><br> Life support shouldn't be a problem with all the ice on Europa, but it may be difficult to gather the building materials necessary to establish stable settlements there.<br><br>Before we can plan for setting up on Europa, we need to know exactly what to expect. Yoshimi Robotics is best equipped to do the initial survey, but they have been reluctant to help, believing that life support staying expensive on Io is advantageous to them. We've managed to convince them to help us, but it won't come cheaply, so we'll have to be quick.<br><br>The time limit decreases on higher difficulties.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_INFO</zType>
+    <English><![CDATA[- You cannot buy or sell any resources on the market.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_LOAD_TEXT</zType>
+    <English>You won't be able to buy any resources from the market, so keep in mind what you'll need.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_INTRO1_TITLE</zType>
+    <English>Welcome to Europa!</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_INTRO1_DESC</zType>
+    <English><![CDATA[For a blind landing, that could've gone a lot worse. I'm glad we managed to avoid all those penitentes. <br><br>The robots have started deploying a rudimentary scanner, but you'll have to direct them effectively if we are to get everything done before our contract expires.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_INTRO1_BUTTON</zType>
+    <English>How do I do that?</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_INTRO2_TITLE</zType>
+    <English>Starting the Journey</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_INTRO2_DESC</zType>
+    <English><![CDATA[First things first, you're on your own for this. <color=HIGHLIGHT_TEXT>Without a well-stocked local colony to buy resources from and sell resources to, you'll have to establish self-sustaining supply chains.</color>]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_INTRO2_BUTTON</zType>
+    <English>I'll miss auto-purchasing power</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_INTRO3_TITLE</zType>
+    <English>Power!</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_INTRO3_DESC</zType>
+    <English><![CDATA[The Energy Vault you landed with will cover your power needs to start, but <color=HIGHLIGHT_TEXT>you'll need to secure additional power soon</color>. More solar panels are an option if you can find and quarry some silicon, or you can establish fuel production and build gas plants.  <br><br>A Europan Sol is longer than you're used to, at 85 hours, and night is proportionally longer as well, at 28 hours, so relying on solar power will be problematic.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_INTRO3_BUTTON</zType>
+    <English>What else do I need to know?</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_INTRO4_TITLE</zType>
+    <English>New Metal</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_INTRO4_DESC</zType>
+    <English><![CDATA[It looks like <color=HIGHLIGHT_TEXT>there are some magnesium deposits around here. That should be a nice aluminum substitute.</color> You'll need to upgrade your HQ if you're to support all these operations, and the magnesium will help you there. <br><br>Beyond that, a lot will depend on what the scanner ends up finding. It's not much to go on, but we think you're up to the task.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_INTRO4_BUTTON</zType>
+    <English>Thanks, I guess?</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_SCANNER_TITLE</zType>
+    <English>Using the Scanner</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_SCANNER_DESC</zType>
+    <English><![CDATA[Before I forget to mention it again, your scanner can be described as functional at best for now. If you can manage to secure some steel and glass, <color=HIGHLIGHT_TEXT>you can upgrade the scanner, which will allow it to scan faster but make it consume more power.</color>]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_SCANNER_NEXT</zType>
+    <English>Good to know.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_CRACKS_TITLE</zType>
+    <English>Cracks in the Surface</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_CRACKS_DESC</zType>
+    <English><![CDATA[These cracks seem like they were caused by hydrothermal activity. We might be able to find a usable hydrothermal vent to harness, or at least some of the resources that plumes bring up from the ocean. The surface seems less stable, though, so it'll take longer to set our buildings up there.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_CRACKS_BUTTON</zType>
+    <English>There's always a downside</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_METHANE_TITLE</zType>
+    <English>Methane Gas Pockets</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_METHANE_DESC</zType>
+    <English><![CDATA[Is that methane trapped in the ice? We should be able to extract that and process it for carbon and hydrogen fuel. Here's a prototype design for using the methane. If you can confirm that it'll work, that would make carbon on Europa much less of a concern. We'll just have to be careful building on the thinner ice.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_METHANE_BUTTON</zType>
+    <English>I hope I can trust your design</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_HYDROTHERMAL_TITLE</zType>
+    <English>Hydrothermal Activity</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_HYDROTHERMAL_DESC</zType>
+    <English><![CDATA[There's the hydrothermal vent! It'll be expensive and slow to get it running, but it'll be a strong, consistent source of power. We can even squeeze out some extra water as a byproduct! We'll need you to test a prototype build for that too.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_HYDROTHERMAL_BUTTON</zType>
+    <English>I'll get right on it</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_VICTORY_TITLE</zType>
+    <English>Mission Complete</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_VICTORY_DESC</zType>
+    <English><![CDATA[Well done. We should have enough information to move onto the next phase: a manned mission to establish our first colony on Europa. There's a lot of work ahead of us, but this is a promising start.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_VICTORY_BUTTON</zType>
+    <English>One small step for man</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_DEFEAT_TITLE</zType>
+    <English>Contract Concluded</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_DEFEAT_DESC</zType>
+    <English><![CDATA[Ugh, looks like the robots are getting ready to pack up and leave. I'm not sure we've gotten enough information to make another mission work, so this whole mission was a failure. You tried, I guess?]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_DEFEAT_BUTTON</zType>
+    <English>But it still wasn't enough...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_RULES_EUROPA1</zType>
+    <English>You are alone on Europa, with no markets to buy resources from or sell resources to. Focus on supplying power to your scanning equipment so you can accoomplish your goals.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_GOAL_TIME_TT</zType>
+    <English>Contracting with Yoshimi Robotics is expensive, and you don't have the capital for an extension, so finish your exploration quickly</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_GOAL_REVEAL</zType>
+    <English>Scan the surroundings</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA1_GOAL_REVEAL_TT</zType>
+    <English>Tiles will continue to be revealed each second as long as the Scanner building receives power.</English>
+  </Entry>
+
+  <!-- Scenario 2 -->
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_COLONY_NAME</zType>
+    <English>New New York</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_NAME</zType>
+    <English>The First Europans</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_TT</zType>
+    <English>Establish a colony on Europa</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_DESC</zType>
+    <English><![CDATA[The scouting mission on Europa managed to find just about everything necessary to support a new colony. While New Meridians spearheaded the exploration effort, Seneca Development managed to snag the contract to get the first settlement on Europa up and running.<br><br>Winning the contract required extravagant promises about how quickly they could deliver, but they're sure you're up to the task.<br><br>You start with fewer resources and need to build more habitats on higher difficulties.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_INFO</zType>
+    <English><![CDATA[- You cannot buy or sell any resources on the market, but you will be paid ($81 per second per habitat) for life support sent to supply the colony.<br>- You automatically lose if your stockpile of any of Water, Food, or Oxygen drop below zero.<br>- Your freighters will explode if you run out of fuel for running them.<br>- Imports are available once there are colonists to operate the rocket launcher module, allowing you to spend money and either Food or Water for Steel.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_LOAD_TEXT</zType>
+    <English>Make sure you can supply the people with life support before you build too many habitats</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_INTRO1_TITLE</zType>
+    <English>Building New New York</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_INTRO1_DESC</zType>
+    <English><![CDATA[Welcome to Europa. We've set you up with a colony foundation and an improvised rocket launcher. <color=HIGHLIGHT_TEXT>Once you get the colony rolling and the rocket launcher staffed, we can send you some Steel in exchange for Food or Water</color> to sell back on Io, but that's about all we can do to help.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_INTRO1_BUTTON</zType>
+    <English>That's something at least</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_INTRO2_TITLE</zType>
+    <English>Feeding the People</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_INTRO2_DESC</zType>
+    <English><![CDATA[You'll be on your own for life support, though, and <color=HIGHLIGHT_TEXT>you'll need to keep the new colonists supplied</color> as well. They'll pay you for your goods but, more importantly, we'll lose our contract if you end up needing an emergency shipment of food, water, or oxygen. Don't let that happen.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_INTRO2_BUTTON</zType>
+    <English>Understood.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_IMPORTS_TITLE</zType>
+    <English>Offworld Shipping</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_IMPORTS_DESC</zType>
+    <English><![CDATA[It looks like the rocket launcher is up and running. Future colonies will probably be able to integrate better, more permanent structures into their hub, but this will work for now, even if you do have to cover the costs of maintaining the facility and launching rockets.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_IMPORTS_BUTTON</zType>
+    <English>Works for me</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_GOAL_TIME_TT</zType>
+    <English>Your employers have made grand promises about how quickly they could build new homes on Europa, and it's up to you to make good on them</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_GOAL_LIFE_SUPPORT</zType>
+    <English>Keep everyone supplied with life support</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_GOAL_LIFE_SUPPORT_TT</zType>
+    <English>You'll need to provide colonists (and your own HQ) with life support as you house them.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_GOAL_MODULES_TT</zType>
+    <English>Habitats are your sole source of income. You'll need lots of steel for construction, and imports will help you get it.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_VICTORY_TITLE</zType>
+    <English>Ahead of Schedule and Under Budget</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_VICTORY_DESC</zType>
+    <English><![CDATA[I knew you could do it! We should be in great shape from here.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_VICTORY_BUTTON</zType>
+    <English>Was there ever any doubt?</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_DEFEAT_TITLE</zType>
+    <English>In Need of a Bailout</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_DEFEAT_DESC</zType>
+    <English><![CDATA[Contrary to your assurances, a little starvation does hurt people. It also hurts our wallets, and that's unacceptable.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA2_DEFEAT_BUTTON</zType>
+    <English>Do I get a golden parachute at least?</English>
+  </Entry>
+
+  <!-- Scenario3 -->
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_NAME</zType>
+    <English>Branching Out</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_TT</zType>
+    <English>Establish a trading and supply hub for future missions to new frontiers</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_DESC</zType>
+    <English><![CDATA[Your efficient construction of New New York has given you a head start on the competition on Europa and earned Seneca Development a nice chunk of change to boot.<br><br>Now, they expect you to develop this Europan colony into a robust base of operations, while delivering a return on their investment by supporting their efforts on Io with life support shipments. If that wasn't enough, other corporations have begun expanding to Europa, intent on carving out their own shares of the market. You'll have to contend with them encroaching on your territory as well.<br><br>On higher difficulties, you start with fewer shares of your stock and shipment requests grow faster and have shorter deadlines.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_INFO</zType>
+    <English><![CDATA[- You can now buy and sell resources as needed<br>- You cannot buy any stock, but your opponent can still buy you out. Complete your goals before they can.<br>- Seneca Development will request periodic shipments of resources. Failing to deliver will increase your debt<br>- Imports are available, allowing you to spend money and either Food or Water for Steel.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_LOAD_TEXT</zType>
+    <English>Being unable to buy or sell stock makes keeping your stock price healthy more important. Avoid missing shipments as much as you can to avoid accruing lots of debt.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_INTRO1_TITLE</zType>
+    <English>New Frontiers</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_INTRO1_DESC</zType>
+    <English><![CDATA[We've managed to secure a foothold on Europa, but there's still a lot of work to do to establish a base of operations for supplying our colonies on Io and exploring new frontiers. The key for now is to <color=HIGHLIGHT_TEXT>construct offworld markets</color> to facilitate all the shipments we'll want to make.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_INTRO1_BUTTON</zType>
+    <English>Understood.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_INTRO2_TITLE</zType>
+    <English>New Frontiers</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_INTRO2_DESC</zType>
+    <English><![CDATA[We still can't do much to help you, unfortunately; the higher-ups are actually expecting you to help subsidize our operations on Io. It's an unpleasant situation all around, but we trust you to pull through.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_INTRO2_BUTTON</zType>
+    <English>I'll do my best.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_INTRO3_TITLE</zType>
+    <English>Fledgling Markets</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_INTRO3_DESC</zType>
+    <English><![CDATA[Resource markets have formed around the colony we established, so <color=HIGHLIGHT_TEXT>you should be able to purchase anything</color> you need. You'll just have to hold off the competition while you get your offworlds up.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_INTRO3_BUTTON</zType>
+    <English>It's nothing I can't handle</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_VICTORY_TITLE</zType>
+    <English>Future Secured</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_VICTORY_DESC</zType>
+    <English><![CDATA[You made it! With this base of operations, we should have no trouble doing whatever we need from Europa.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_VICTORY_BUTTON</zType>
+    <English>I told you I could handle it</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_GOAL_OFFWORLDS</zType>
+    <English>Build 2 offworld markets</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_GOAL_OFFWORLDS_TT</zType>
+    <English>You'll need a lot of steel to be able to upgrade to HQ5 and build your offworlds. Keeping up with shipments while using imports will be difficult.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA3_SHIPMENTS_TIME</zType>
+    <English>Complete requests (Optional)</English>
+  </Entry>
+
+  <!-- Scenario4 -->
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_NAME</zType>
+    <English>Cave Dwellers</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_TT</zType>
+    <English>Caves on Europa would make great locations for new homes</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_DESC</zType>
+    <English><![CDATA[The floodgates are open. Now that Seneca Development has proven that settlements on Europa are viable, everyone wants to get in on the action. Reclamation Inc. has developed methods to build safer, more comfortable, and more sustainable housing in Europa's caves, which will provide some natural protection from the extreme cold and radiation.<br><br>Land is hotly contested, though, and they're looking to you to prove that the extra costs of underground housing are worthwhile. It seems your competitors have caught wind of the plans, so expect them to have something up their sleeves.<br><br>On higher difficulties, your opponent starts with a larger advantage and their bonus activates more frequently.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_INFO</zType>
+    <English><![CDATA[- You can now buy and sell resources as needed<br>- Your goal is to have the highest stock price and most housing modules built at the end of Sol 2.<br>- Subterranean Shelter modules require cave tiles adjacent to the colony to build. You can use the Drill black market item to create cave tiles. You can buy drills from the black market (for free) or craft them in the toolshop for a time and money cost if you need more (note: you can shift-click an item in the toolshop to queue crafts infinitely).<br>- Workplace modules are automatically built when you build housing modules<br>- Imports are available, allowing you to spend money and either Food or Water for Carbon.<br><br>Pro-tip: Methane can be a decent substitute for carbon if there isn't much on the map. Imports and using drills for carbon can help as well.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_LOAD_TEXT</zType>
+    <English>Building housing will give a big boost to your stock price, but all the usual things, HQ upgrades and debt especially, matter too.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_INTRO_TITLE</zType>
+    <English>Facts on the Ground</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_INTRO_DESC</zType>
+    <English><![CDATA[It's no surprise Seneca has a head start on us here, since they were the first ones to start building on Europa. It's another hurdle to overcome, but it could be worse.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_INTRO_BUTTON</zType>
+    <English>What's the plan?</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_DRILL_TITLE</zType>
+    <English>Drill, baby, drill</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_DRILL_DESC</zType>
+    <English><![CDATA[We made some designs for makeshift <color=HIGHLIGHT_TEXT>drills to get some caves set up for our housing modules. We can craft them for you in the toolshop</color> if you cover the costs, otherwise our black market contacts can provide them.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_DRILL_BUTTON</zType>
+    <English>I'll commission some when I can.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_TRICKS_TITLE</zType>
+    <English>Foul Play</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_TRICKS_DESC</zType>
+    <English><![CDATA[Seneca has a lot invested in keeping us out of the market. I don't reckon they'll be satisfied with just a head start. Keep an eye on them.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_TRICKS_BUTTON</zType>
+    <English>Got it.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_BOOST_TITLE</zType>
+    <English>Diet Supplements</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_BOOST_DESC</zType>
+    <English><![CDATA[So that's what they're up to. Looks like they've secured a steady supply of performance enhancing drugs for their workers. I don't think we can disrupt their supply in time, but we've convinced our contacts to give you quicker access to sabotage to counter them.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_BOOST_BUTTON</zType>
+    <English>Can't work faster if you can't work</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_VICTORY_TITLE</zType>
+    <English>Home Sweet Home</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_VICTORY_DESC</zType>
+    <English><![CDATA[With all the housing we've built, we've undoubtedly improved the lives of many and, just as importantly, made us a nice chunk of change. There's nowhere on Europa that should be beyond our grasp now.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_VICTORY_BUTTON</zType>
+    <English>Onwards!</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_GOAL_BUILD_HOUSING</zType>
+    <English>Have more housing modules at the end of Sol 2</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_GOAL_BUILD_HOUSING_TT</zType>
+    <English>Remember that you'll need to drill caves first to build housing. Get started early, otherwise the cooldown on drill acquisition will be problematic.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_GOAL_STOCK_PRICE</zType>
+    <English>Have the highest stock price at the end of Sol 2</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA4_GOAL_STOCK_PRICE_TT</zType>
+    <English>Remember to keep your debt in check while you upgrade and build modules.</English>
+  </Entry>
+
+  <!-- Scenario5 -->
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_NAME</zType>
+    <English>The Search for Life</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_TT</zType>
+    <English>Europa's ocean has long been thought to be able to support life. It's time to see what's there.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_DESC</zType>
+    <English><![CDATA[Extraterrestrial life has fascinated us for years. Even the simplest organisms could provide all sorts of insights into how life adapts and sustains itself elsewhere. With the Great Collapse, enthusiasm and funding for the search for life largely dried up though, and even scientific exploration of Mars had to be secondary to profit-making.<br><br>Things aren't much different on Europa, but New Meridians has managed to divert enough cash to fund a study of Europa, which has long been theorized to be able to support life. It's up to you to support the scientists as they carry out their work.<br><br>You start with fewer shares of your stock on higher difficulties.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_INFO</zType>
+    <English><![CDATA[- You can now buy and sell resources as needed<br>-Hydrothermal Plants produce +1.0 Water Samples per second instead of +0.5 Water. You need Water Samples to start the Search for Life research <br>-You cannot buy any stock, but your opponent can still buy you out. Finish the Search for Life in your Patent Labs before they can.<br>- Imports are available, allowing you to spend money and either Food or Water for Steel.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_LOAD_TEXT</zType>
+    <English>Running several Patent Labs will complete the Search for Life faster.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_INTRO_TITLE</zType>
+    <English>Europan Research Facilities</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_INTRO_DESC</zType>
+    <English><![CDATA[It's taken just about everything we have to get this mission started, so there's not much we can do to keep other corporations off your back. You're just going to have to work quickly.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_INTRO_BUTTON</zType>
+    <English>I'll make the most of this.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_HYDROTHERMAL_TITLE</zType>
+    <English>Deep Sea Adventures</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_HYDROTHERMAL_DESC</zType>
+    <English>
+      <![CDATA[The ocean should be the most promising place to find signs of life, especially around areas of hydrothermal activity. If we <color=HIGHLIGHT_TEXT>build hydrothermal plants</color>, we can collect water samples during normal operation. When we have enough samples we can start out research using them.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_HYDROTHERMAL_BUTTON</zType>
+    <English>Let's do it.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_SEARCH_TITLE</zType>
+    <English>Deep Sea Adventures</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_SEARCH_DESC</zType>
+    <English><![CDATA[Nice job getting the samples collected. Once we <color=HIGHLIGHT_TEXT>get a Patent Lab up</color> and running, we can begin work on investigating them as quickly as we can, but we'll be able to <color=HIGHLIGHT_TEXT>work faster if we have more Patent Labs</color>.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_SEARCH_BUTTON</zType>
+    <English>Alright.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_VICTORY_TITLE</zType>
+    <English>Research Complete?</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_VICTORY_DESC</zType>
+    <English><![CDATA[We've gotten about as much data as we could from analyzing the water in this area. It'll take some time to sort through, but hopefully we can make good use of this.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_VICTORY_BUTTON</zType>
+    <English>Science: getting done.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_GOAL_COLLECT_SAMPLES</zType>
+    <English>Collect 500 water samples</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_GOAL_COLLECT_SAMPLES_PROGRESS</zType>
+    <English>{0}/500</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_GOAL_COLLECT_SAMPLES_TT</zType>
+    <English>Extracting water samples from hydrothermal plants is slow and renders much of the usual water byproduct unusable. Get started on this early.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_GOAL_SEARCH_FOR_LIFE</zType>
+    <English>Complete the Search for Life</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA5_GOAL_SEARCH_FOR_LIFE_TT</zType>
+    <English>You can start research in the Patent Lab once you have enough water samples. Additional idle Patent Labs will speed research up.</English>
+  </Entry>
+
+  <!-- Scenario6 -->
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA6_NAME</zType>
+    <English>A Hole in the Bread Basket</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA6_TT</zType>
+    <English>The Diadem Trust has *designs* on making this region of Europa a life support production powerhouse. We *cannot* allow that.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA6_DESC</zType>
+    <English><![CDATA[For once, trusting humans to trip over their own feet doesn't seem to be working. Not only have they managed to establish stable supply chains and colonies on Europa, but various factions are moving to expand their operations enough to threaten Yoshimi Robotics' interests on Io.<br><br>The Diadem Trust has a particularly ambitious plan to create a base heavily focused on producing food and water to deliver back to Io. All these projects aimed at lowering life support prices have broad government support, so opposing them might be costly. You've been hired to find a way to make Diadem's venture into a spectacular failure, and perhaps convince the humans that their attempts to farm Europa won't be as fruitful as they'd like.<br><br>Goal prices are higher on higher difficulties and you start with fewer shares of your own stock.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA6_INFO</zType>
+    <English><![CDATA[- You can now buy and sell resources as needed<br>- You cannot buy any stock, but your opponent can still buy you out. You'll need to retain control over your company until you can raise the average prices of food and water over the course of the game high enough.<br>- Imports are available, allowing you to spend money and either Food or Water for Steel.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA6_LOAD_TEXT</zType>
+    <English>Slowing the competition down early will reduce the chances they develop to a point where you can't stop them.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA6_INTRO_TITLE</zType>
+    <English>Sabotage with a Side of Espionage</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA6_INTRO_DESC</zType>
+    <English><![CDATA[Our directive is to *stop* the humans: <color=HIGHLIGHT_TEXT>sabotage, hacking, and propping up prices</color> will all work. If the humans cannot afford *life support*, they cannot support life.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA6_INTRO_BUTTON</zType>
+    <English>Mission received.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA6_VICTORY_TITLE</zType>
+    <English>Opponent.Concede()</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA6_VICTORY_DESC</zType>
+    <English><![CDATA[Price thresholds have been breached. The human mission has been aborted. My mission is a *triumph*.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA6_VICTORY_BUTTON</zType>
+    <English>That is wonderful.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA6_GOAL_MAINTAIN_WATER_PRICE</zType>
+    <English>Keep the average water price above ${0}</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA6_GOAL_MAINTAIN_FOOD_PRICE</zType>
+    <English>Keep the average food price above ${0}</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA6_GOAL_MAINTAIN_PRICES_TT</zType>
+    <English>This is the average price over the course of the whole game. Try to corner the market by sabotaging your opponent and using the Hacker Array to force prices upward.</English>
+  </Entry>
+
+  <!-- Scenario7 -->
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA7_NAME</zType>
+    <English>Squeezing In</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA7_TT</zType>
+    <English>Getting to Europa late means there's not much to work with.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA7_DESC</zType>
+    <English><![CDATA[The Penrose Collective values their people above all else, and their caution led them to wait to see that colonies could grow and thrive on Europa before taking the plunge on going there themselves. Others' success on Europa has come quicker and more complete than expected, though, leaving little room for Penrose to expand there.<br><br>An opportunity has finally come for the Penrose Collective to stake a claim on Europa's ice, but it hasn't come without significant caveats; New Meridians has already established a base in the area and claimed the most valuable of what little resources are available. Their confidence in their advantages has led to them become complacent, and that should provide you the opening you need, especially with the Penrose Collective working to support your efforts.<br><br>On higher difficulties, you receive bonuses less often, start with fewer shares of your own stock, and electronics start at a higher price.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA7_INFO</zType>
+    <English><![CDATA[- You can now buy and sell resources as needed<br>- Resources diminish twice as quickly as normal and Low deposits will diminish to Trace.<br>- Imports are available, allowing you to spend money and either Food or Water for Silicon.<br>- You will periodically receive your choice of bonus black market items.<br><br>Reminder: Drills can be used to create cave tiles, allowing you to slant drill from adjacent tiles. Slant drilling off a resource deposit will still contribute to it diminishing though, so be careful.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA7_LOAD_TEXT</zType>
+    <English>Your bonus choices stay the same every time. Plan around this to satisfy your company's needs.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA7_INTRO_TITLE</zType>
+    <English>Surviving on Scraps</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA7_INTRO_DESC</zType>
+    <English><![CDATA[<color=HIGHLIGHT_TEXT>The resources here are poor, degrade faster than usual, and degrade more than usual.</color> I trust we'll find a way around it. We must.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA7_INTRO_BUTTON</zType>
+    <English>We're in this together.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA7_BONUS_TITLE</zType>
+    <English>The Collective's Collection</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA7_BONUS_DESC</zType>
+    <English><![CDATA[Our people, through teamwork and ingenuity, have managed to secure some tools to help us grow our HQ and profits. The resourcefulness and solidarity of the collective never ceases to impress.<br><br><br>Choose an option:]]></English>
+  </Entry>
+
+  <!-- Scenario8 -->
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_NAME</zType>
+    <English>On Shaky Ground</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_TT</zType>
+    <English>Hydrothermal plumes are the source of many of the resources on Europa's surface. Learning to withstand their destructive power would be a huge advantage.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_DESC</zType>
+    <English><![CDATA[Nothing worth doing is ever easy. The Diadem Trust has dabbled in small ventures on Europa, but this will be their first focused endeavor.<br><br>Europa's limitless water is valuable, but building the infrastructure to exploit it is difficult due to the scarcity of minerals. What little is available is largely brought to the surface by hydrothermal plumes, so reinforcing structures to withstand the force of Europa's plumes, tremors, and quakes would provide quite a competitve advantage for accessing those resources.<br><br> The Diadem Trust has hired you for an experimental venture into a particularly geologically active area. You'll need to withstand the disruptions until you can develop more advanced steel production techniques, and you'll have to do it while fending off competitors.<br><br>On higher difficulties, you start with fewer shares of your own stock, can import steel fewer times, and steel starts more expensive.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_INFO</zType>
+    <English><![CDATA[- You can now buy and sell resources as needed<br>- You cannot buy any stock, but your opponent can still buy you out.<br>- Imports are available, allowing you to spend money and either Food or Water for Steel.<br>- You cannot build any Steel Mills until you have Perfect Steel Technology.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_LOAD_TEXT</zType>
+    <English>Steel will get expensive quickly and imports can only do so much. Get the optimizations done soon.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_INTRO_TITLE</zType>
+    <English>Not Good Enough</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_INTRO_DESC</zType>
+    <English><![CDATA[I hate to admit it, but our steel right now is not up to par; it wouldn't last an hour in these conditions. We'll need our engineers to <color=HIGHLIGHT_TEXT>optimize our steel production methods to perfection</color>. Until then it's not worth producing steel.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_INTRO_BUTTON</zType>
+    <English>I'll get right on that.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_INTRO2_TITLE</zType>
+    <English>Limited Supply</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_INTRO2_DESC</zType>
+    <English><![CDATA[<color=HIGHLIGHT_TEXT>We have four shipments of good-quality steel available for you to import, but you'll be on your own after that.</color> We'll be expecting you to send some of your optimized steel back after you've finished your optimization, so keep that in mind.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_INTRO2_BUTTON</zType>
+    <English>Noted.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_STEEL_TITLE</zType>
+    <English>Optimization Complete</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_STEEL_DESC</zType>
+    <English><![CDATA[Now that we've managed to develop and successfully test our new technology, we need to deploy it. <color=HIGHLIGHT_TEXT>Produce some steel and launch it offworld</color> so we can use it elsewhere.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_STEEL_BUTTON</zType>
+    <English>Time for some smelting.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_VICTORY_TITLE</zType>
+    <English>Cold Steel</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_VICTORY_DESC</zType>
+    <English><![CDATA[This steel should be able to handle anything Europa can throw at it. It should open the doors to areas our opponents wouldn't dare to venture.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_VICTORY_BUTTON</zType>
+    <English>Forward and outward!</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_GOAL_PERFECT_STEEL</zType>
+    <English>Research Perfect Steel Production</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_GOAL_PERFECT_STEEL_TT</zType>
+    <English>Fully optimize Steel Production at the Optimization Center</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA8_GOAL_SHIP_STEEL_TT</zType>
+    <English>Construct an Offworld Market and launch Steel 3 times</English>
+  </Entry>
+
+  <!-- Scenario9 -->
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_NAME</zType>
+    <English>Making Amends</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_TT</zType>
+    <English>Troubling times provide opportunities for redemption</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_DESC</zType>
+    <English><![CDATA[Humans are resilient creatures. Even after Joji-5's sabotage operation on the Diadem Trust, their efforts to farm Europa continue. Consequently, Yoshimi Robotics has decided that it can no longer afford to skip participating in the Europan markets.<br><br>Unfortunately, Joji's acts of sabotage have brought predictable consequences for Yoshimi: stiff fines to enter any Europan market. Desperate times call for desperate measures, though. Violent volcanic activity has forced the evacuation of several settlements on Io, and the resulting influx of refugees to Europa has brought an opportunity: if Yoshimi Robotics can support this colony during the crisis, the penalties on them will be forgiven. You've been hired to help Reni-6 accomplish that.<br><br>On higher difficulties, the debt threshold is lower, your starting resource stockpiles are smaller, you start with fewer shares of your own stock, prices tend to be higher, and the colony starts larger and grows quicker.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_INFO</zType>
+    <English><![CDATA[- You can buy and sell resources as needed<br>- Imports are available, allowing you to spend money and either Food or Water for Steel.<br>- You start with a Toolshop building, allowing you to craft helpful black market items at the cost of money, time, and power.<br>- You must cover the costs of the colony's consumption. Resources are first deducted from your stockpiles, then bought and paid for with debt if necessary.<br>- You will lose instantly if you exceed the debt limit]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_LOAD_TEXT</zType>
+    <English>The colony will grow slowly over time. Be ready to support new habitats, offices, warehouses, and laboratories.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_INTRO_TITLE</zType>
+    <English>Redemption Time</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_INTRO_DESC</zType>
+    <English><![CDATA[Joji's sabotage now appears to be a *critical error*. It is now my task to repair the robots' reputation.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_INTRO_BUTTON</zType>
+    <English>I'm glad you're the one they sent.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_INTRO2_TITLE</zType>
+    <English>Planning Ahead</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_INTRO2_DESC</zType>
+    <English><![CDATA[The HQ construction unit has been filled to its capacity, according to my calculations of what the colony will need. The supplies should last long enough for you to establish factories here.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_INTRO2_BUTTON</zType>
+    <English>Time to get started.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_VICTORY_TITLE</zType>
+    <English>Humanity Saved</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_VICTORY_DESC</zType>
+    <English><![CDATA[Mission complete. *Good neighbor* status re-attained.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_VICTORY_BUTTON</zType>
+    <English>Huzzah!</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_DEFEAT_TITLE</zType>
+    <English>Evil Machines</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_DEFEAT_DESC</zType>
+    <English><![CDATA[We have failed to re-obtain our *good neighbor* status. Joji and I have both miscalculated quite badly. It appears we will need to recalibrate our systems.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_DEFEAT_BUTTON</zType>
+    <English>I didn't take enough vitamins.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_GOAL_SUPPLY_COLONY</zType>
+    <English>Keep the Colony supplied</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_GOAL_SUPPLY_COLONY_TT</zType>
+    <English>The colony will expand into habitats, offices, warehouses, and laboratories, consuming water, food, oxygen, power, glass, and chemicals.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_GOAL_DEBT</zType>
+    <English>Keep your debt under ${0}</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA9_GOAL_DEBT_TT</zType>
+    <English>Any unfulfilled colony demand will be filled through your debt. Watch out for interest payments at 0:00 and 43:00.</English>
+  </Entry>
+
+  <!-- Scenario10 -->
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_NAME</zType>
+    <English>Shielded Shipments</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_TT</zType>
+    <English>Io badly needs life support aid, and your scientific breakthroughs will let you deliver it</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_DESC</zType>
+    <English><![CDATA[Food stockpiles on Io were already low, thanks to the robots' sabotage on food production efforts on Europa. With volcanic activity cutting off access to several radiation-shielded storage areas, the situation has become dire.<br><br>Luckily, New Meridians' research on Europa delivered some insights into how we could send shipments of resources back to Io without exposing them to dangerous amounts of radiation, even without specialized storage areas. They need you to help them scale up production quickly, but if all goes well, you'll manage to save many lives and build a convincing case for more research funding for New Meridians.<br><br>On higher difficulties, the debt threshold is lower, more radiation shielding factories spawn when you upgrade, and the time limit is shorter.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_INFO</zType>
+    <English><![CDATA[- You can buy and sell resources as needed<br>- Imports are available, allowing you to spend money and either Food or Water for Steel.<br>- You start with a Toolshop building, allowing you to craft helpful black market items at the cost of money, time, and power.<br>- You must cover the costs of the colony's radiation shielding factories. Resources are first deducted from your stockpiles, then bought and paid for with debt if necessary. Radiation Shielding Factories will be built each time you upgrade your HQ.<br>- You will lose instantly if you exceed the debt limit or if you have not completed the required launches by Sol 4, 0:00.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_LOAD_TEXT</zType>
+    <English>The radiation shielding factories can be a big drag on your expansion. Have a plan to overcome the steel losses.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_INTRO_TITLE</zType>
+    <English>Feeding Time</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_INTRO_DESC</zType>
+    <English><![CDATA[We at New Meridians are almost uniquely positioned to help those still stranded on Io thanks to the new technologies we've developed. It's the right thing to do, and it'll do a lot to cement our reputation in the eyes of the people.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_INTRO_BUTTON</zType>
+    <English>Let's get it done.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_INTRO2_TITLE</zType>
+    <English>New Technology</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_INTRO2_DESC</zType>
+    <English><![CDATA[We've deployed our new technology at this <color=HIGHLIGHT_TEXT>colony's radiation shielding factories. We'll need to help keep those supplied</color> while sending food and water to Io.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_INTRO2_BUTTON</zType>
+    <English>I love science.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_VICTORY_TITLE</zType>
+    <English>Humanity Saved</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_VICTORY_DESC</zType>
+    <English><![CDATA[That should be enough food and water to last for the rest of the storm. We ought to be proud of what we've accomplished here.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_VICTORY_BUTTON</zType>
+    <English>Cheers!</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_DEFEAT_TITLE</zType>
+    <English>Failure to Launch</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_DEFEAT_DESC</zType>
+    <English><![CDATA[We tried our best, but it wasn't quite enough. At least we can tell ourselves that we helped reduce the suffering on Io even if we couldn't avert it.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_DEFEAT_BUTTON</zType>
+    <English>That's not much comfort.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_GOAL_SHIPMENTS_TT</zType>
+    <English>An unboosted Offworld Market takes ten Europan hours, or nearly 1/8 of a Europan Sol, to complete a launch.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_GOAL_SUPPLY_COLONY</zType>
+    <English>Keep the Radiation Shielding Factories supplied</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_GOAL_SUPPLY_COLONY_TT</zType>
+    <English>The colony will add an additional Radiation Shielding Factories every time you upgrade your HQ, acting as a constant drain on your resources or debt.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_GOAL_TIME_TT</zType>
+    <English>Build additional Offworld Markets to get launches done faster if you can.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_GOAL_DEBT</zType>
+    <English>Keep your debt under ${0}</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA10_GOAL_DEBT_TT</zType>
+    <English>Any resources you cannot provide to the Radiation Shielding Factories will be purchased with debt and failed requests will also add to your debt. Watch out for interest payments at 0:00 and 43:00.</English>
+  </Entry>
+
+  <!-- Scenario11 -->
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_NAME</zType>
+    <English>Underground City</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_TT</zType>
+    <English>This influx of refugees from Io is the perfect opportunity to establish a sprawling underground city.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_DESC</zType>
+    <English><![CDATA[While some of Io's colonists can hunker down or temporarily relocate to nearby shelters, others are in areas with too many volcanic threats to stay on Io, forcing those people to flee to Europa seeking refuge. Fresh off their successful pilot project building underground housing, Reclamation Inc. has set up to build housing at scale and really help out.<br><br>This won't be a standard business venture, though. Other colonies on Europa have too many of their own problems to deal with to buy goods and help fund the new immigrant city, so you'll be on your own here. You'll have to recoup some money from the incoming folks, but only by supplying resources at reasonable prices. After all, Reclamation Inc. has no intention of creating new generations of debtors; they remember that struggle all too well.<br><br>On higher difficulties, the debt threshold is lower, the price ceiling for payments is lower, and the module goal is higher.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_INFO</zType>
+    <English><![CDATA[- You can buy resources as needed but cannot sell resources<br>- Imports are available, allowing you to spend money and either Food or Water for Carbon.<br>- The colony will buy all the goods it demands from you automatically. If you do not have enough of a resource, the cost is charged to your debt but you will still receive the payment as money.<br>- You start with a Toolshop building, allowing you to craft helpful black market items at the cost of money, time, and power. Note: The toolshop is the only source for drills for Subterranean Shelters.<br>- You will lose instantly if you exceed the debt limit or if you have not constructed the required modules by Sol 4, 0:00.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_LOAD_TEXT</zType>
+    <English>You won't gain debt while prices are low if you don't have the resources the colony demands, but you'll need to produce those resources to control your debt, especially as prices rise.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_INTRO_TITLE</zType>
+    <English>Funding a Project</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_INTRO_DESC</zType>
+    <English><![CDATA[Getting all the building materials we need while keeping the people satisfied is going to be a real test. We do at least have the materials and methods to produce drills very cheaply, so we won't have to worry about those costs.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_INTRO_BUTTON</zType>
+    <English>Time to break ground on this.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_GOAL_TIME_TT</zType>
+    <English>You have to work quickly so people won't have to live in temporary shelters for too long</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_GOAL_LIFE_SUPPORT</zType>
+    <English>Keep the colony supplied</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_GOAL_LIFE_SUPPORT_TT</zType>
+    <English>You'll need to provide colonists with resources if you want to make money.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_GOAL_MODULES_TT</zType>
+    <English>Building housing is the only way the colony will grow.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_GOAL_DEBT</zType>
+    <English>Keep your debt under ${0}</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_GOAL_DEBT_TT</zType>
+    <English>Any resources you cannot provide to the colony will be purchased with debt. Watch out for interest payments at 0:00 and 43:00.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_DEFEAT_TITLE</zType>
+    <English>Housing Crisis</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_DEFEAT_DESC</zType>
+    <English><![CDATA[No matter what we do, it just doesn't seem to be enough. We just weren't prepared enough for the influx of refugees, and our good intentions weren't enough with a solid plan to go with them.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_DEFEAT_BUTTON</zType>
+    <English>There has to be another way.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_VICTORY_TITLE</zType>
+    <English>Affordable Housing</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_VICTORY_DESC</zType>
+    <English><![CDATA[Looks like the last of the refugees are starting to settle in. The new homes and colony culture that we've build should help provide a solid foundation for these folks to build their new lives.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA11_VICTORY_BUTTON</zType>
+    <English>We did it!</English>
+  </Entry>
+
+  <!-- Scenario12 -->
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA12_NAME</zType>
+    <English>The Late Arrival</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA12_TT</zType>
+    <English>Being late to the party carries some costs, but sometimes you just can't afford to miss out.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA12_DESC</zType>
+    <English><![CDATA[As much as she would try to deny it, Anastasia Xu had always set off for Mars to try to make a name for herself beyond that of heiress to the Asteroid Syndicate. Her ruthlessness and willingness to hire the best people for the job helped her overcome some early missteps on Mars, but building and consolidating her businesses elsewhere meant she missed the initial waves of colonizing Europa.<br><br>Despite the late start, Anastasia managed to find an opportunity to compete in one of Europa's prime locations with some negotiation (a small guarantee that she would cover the local colony's costs if prices rose too high, nothing major). Given your success on Europa so far, it's only natural that she has now turned to you to run this venture. Surely you're up for the task?<br><br>On higher difficulties, prices for goods the colony is consuming tend to start higher, the colony takes a larger portion of its consumption from you, and your opponents start with more of their own shares owned.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA12_INFO</zType>
+    <English><![CDATA[- You can buy and sell resources as needed<br>- All imports are available.<br>- The colony will take goods from you automatically and will not pay you for them. If you do not have enough of a resource, the cost is charged to your debt.]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA12_LOAD_TEXT</zType>
+    <English>Keep prices under control, otherwise you'll gain a lot of debt quickly.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA12_VICTORY_TITLE</zType>
+    <English>Queen of Europa</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA12_VICTORY_DESC</zType>
+    <English><![CDATA[You've had a hand in all the major successes on Europa now, haven't you? Well, watching you work firsthand has been impressive enough. How about we continue working together to crush all the competition here?]]></English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA12_VICTORY_BUTTON_1</zType>
+    <English>Count me in.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SCENARIO_EUROPA12_VICTORY_BUTTON_2</zType>
+    <English>I've got other plans.</English>
+  </Entry>
+</Root>

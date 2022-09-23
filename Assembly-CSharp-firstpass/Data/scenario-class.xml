@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Root>
+    <Entry>
+        <zType>SCENARIO_CLASS_GENERAL</zType>
+    </Entry>
+    <Entry>
+        <zType>SCENARIO_CLASS_TUTORIAL</zType>
+    </Entry>
+    <Entry>
+        <zType>SCENARIO_CLASS_BLUES</zType>
+    </Entry>
+    <Entry>
+        <zType>SCENARIO_CLASS_PRACTICE_CHALLENGE</zType>
+    </Entry>
+    <Entry>
+        <zType>SCENARIO_CLASS_BOB</zType>
+    </Entry>
+    <Entry>
+        <zType>SCENARIO_CLASS_EUROPA</zType>
+    </Entry>
+</Root>

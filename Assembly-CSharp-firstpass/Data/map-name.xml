@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType>MAPNAME_DEFAULT</zType>
+		<Name>TEXT_MAPNAME_DEFAULT</Name>
+		<zAsset/>
+		<Location/>
+	</Entry>
+	<Entry>
+		<zType>MAPNAME_CANYONS</zType>
+		<Name>TEXT_MAPNAME_CANYONS</Name>
+		<zAsset>Maps/canyons</zAsset>
+		<Location>LOCATION_MARS</Location>
+	</Entry>
+	<Entry>
+		<zType>MAPNAME_PEAK</zType>
+		<Name>TEXT_MAPNAME_PEAK</Name>
+		<zAsset>Maps/peak</zAsset>
+		<Location>LOCATION_MARS</Location>
+	</Entry>
+	<Entry>
+		<zType>MAPNAME_PLATEAU</zType>
+		<Name>TEXT_MAPNAME_PLATEAU</Name>
+		<zAsset>Maps/plateau</zAsset>
+		<Location>LOCATION_MARS</Location>
+	</Entry>
+	<Entry>
+		<zType>MAPNAME_STEAMS</zType>
+		<Name>TEXT_MAPNAME_STEAMS</Name>
+		<zAsset>Maps/streams</zAsset>
+		<Location>LOCATION_MARS</Location>
+	</Entry>
+	<Entry>
+		<zType>MAPNAME_STRIATIONS</zType>
+		<Name>TEXT_MAPNAME_STRIATIONS</Name>
+		<zAsset>Maps/striations</zAsset>
+		<Location>LOCATION_MARS</Location>
+	</Entry>
+</Root>

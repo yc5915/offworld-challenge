@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType>RESOURCEMINIMUM_NONE</zType>
+		<Name>TEXT_RESOURCEMINIMUM_NONE</Name>
+		<iModifier>-100</iModifier>
+	</Entry>
+	<Entry>
+		<zType>RESOURCEMINIMUM_NORMAL</zType>
+		<Name>TEXT_RESOURCEMINIMUM_NORMAL</Name>
+		<iModifier/>
+	</Entry>
+	<Entry>
+		<zType>RESOURCEMINIMUM_DOUBLE</zType>
+		<Name>TEXT_RESOURCEMINIMUM_DOUBLE</Name>
+		<iModifier>100</iModifier>
+	</Entry>
+</Root>

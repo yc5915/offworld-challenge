@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType>GAMESPEED_SNAIL</zType>
+		<Name>TEXT_GAMESPEED_SNAIL</Name>
+		<AudioSpeedUp>AUDIO_TIMECONTROL_SNAIL_UP</AudioSpeedUp>
+		<AudioSpeedDown>AUDIO_TIMECONTROL_SNAIL_DOWN</AudioSpeedDown>
+		<iSkipUpdates>40</iSkipUpdates>
+	</Entry>
+	<Entry>
+		<zType>GAMESPEED_SLOW</zType>
+		<Name>TEXT_GAMESPEED_SLOW</Name>
+		<AudioSpeedUp>AUDIO_TIMECONTROL_SLOW_UP</AudioSpeedUp>
+		<AudioSpeedDown>AUDIO_TIMECONTROL_SLOW_DOWN</AudioSpeedDown>
+		<iSkipUpdates>30</iSkipUpdates>
+	</Entry>
+	<Entry>
+		<zType>GAMESPEED_NORMAL</zType>
+		<Name>TEXT_GAMESPEED_NORMAL</Name>
+		<AudioSpeedUp>AUDIO_TIMECONTROL_NORMAL_UP</AudioSpeedUp>
+		<AudioSpeedDown>AUDIO_TIMECONTROL_NORMAL_DOWN</AudioSpeedDown>
+		<iSkipUpdates>20</iSkipUpdates>
+	</Entry>
+	<Entry>
+		<zType>GAMESPEED_FAST</zType>
+		<Name>TEXT_GAMESPEED_FAST</Name>
+		<AudioSpeedUp>AUDIO_TIMECONTROL_FAST_UP</AudioSpeedUp>
+		<AudioSpeedDown>AUDIO_TIMECONTROL_FAST_DOWN</AudioSpeedDown>
+		<iSkipUpdates>15</iSkipUpdates>
+	</Entry>
+	<Entry>
+		<zType>GAMESPEED_BLAZING</zType>
+		<Name>TEXT_GAMESPEED_BLAZING</Name>
+		<AudioSpeedUp>AUDIO_TIMECONTROL_BLAZING_UP</AudioSpeedUp>
+		<AudioSpeedDown/>
+		<iSkipUpdates>10</iSkipUpdates>
+	</Entry>
+	<Entry>
+		<zType>GAMESPEED_FAST_FORWARD</zType>
+		<Name>TEXT_GAMESPEED_FAST_FORWARD</Name>
+		<AudioSpeedUp/>
+		<AudioSpeedDown/>
+		<iSkipUpdates>1</iSkipUpdates>
+	</Entry>
+</Root>

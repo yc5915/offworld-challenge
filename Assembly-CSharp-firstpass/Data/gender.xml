@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Root>
+  <Entry>
+    <zType>GENDER_MALE</zType>
+  </Entry>
+  <Entry>
+    <zType>GENDER_FEMALE</zType>
+  </Entry>
+</Root>

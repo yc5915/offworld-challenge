@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType>ORDINAL_11</zType>
+		<Name>TEXT_ORDINAL_DEFAULT</Name>
+		<iDivisor>100</iDivisor>
+        <iRemainder>11</iRemainder>
+	</Entry>
+    <Entry>
+        <zType>ORDINAL_12</zType>
+        <Name>TEXT_ORDINAL_DEFAULT</Name>
+        <iDivisor>100</iDivisor>
+        <iRemainder>12</iRemainder>
+    </Entry>
+    <Entry>
+        <zType>ORDINAL_13</zType>
+        <Name>TEXT_ORDINAL_DEFAULT</Name>
+        <iDivisor>100</iDivisor>
+        <iRemainder>13</iRemainder>
+    </Entry>
+    <Entry>
+        <zType>ORDINAL_1</zType>
+        <Name>TEXT_ORDINAL_FIRST</Name>
+        <iDivisor>10</iDivisor>
+        <iRemainder>1</iRemainder>
+    </Entry>
+    <Entry>
+        <zType>ORDINAL_2</zType>
+        <Name>TEXT_ORDINAL_SECOND</Name>
+        <iDivisor>10</iDivisor>
+        <iRemainder>2</iRemainder>
+    </Entry>
+    <Entry>
+        <zType>ORDINAL_3</zType>
+        <Name>TEXT_ORDINAL_THIRD</Name>
+        <iDivisor>10</iDivisor>
+        <iRemainder>3</iRemainder>
+    </Entry>
+    <Entry>
+        <zType>ORDINAL_DEFAULT</zType>
+        <Name>TEXT_ORDINAL_DEFAULT</Name>
+        <iDivisor>1</iDivisor>
+        <iRemainder>0</iRemainder>
+    </Entry>
+</Root>

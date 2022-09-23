@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Root>
+	<Entry>
+		<zType>KEYBINDCLASS_CAMERA_CONTROL</zType>
+		<zPhase/>
+		<bGameData>0</bGameData>
+	</Entry>
+	<Entry>
+		<zType>KEYBINDCLASS_BUILD_BUILDING</zType>
+		<zPhase>GAMEPHASE_FOUNDED</zPhase>
+		<bGameData>1</bGameData>
+	</Entry>
+	<Entry>
+		<zType>KEYBINDCLASS_GAME_ACTION</zType>
+		<zPhase>GAMEPHASE_FOUNDED</zPhase>
+		<bGameData>0</bGameData>
+	</Entry>
+	<Entry>
+		<zType>KEYBINDCLASS_TOGGLE_INTERFACE</zType>
+		<zPhase/>
+		<bGameData>0</bGameData>
+	</Entry>
+	<Entry>
+		<zType>KEYBINDCLASS_TIME_CONTROL</zType>
+		<zPhase/>
+		<bGameData>0</bGameData>
+	</Entry>
+	<Entry>
+		<zType>KEYBINDCLASS_BUILD_HQ</zType>
+		<zPhase>GAMEPHASE_SCAN</zPhase>
+		<bGameData>0</bGameData>
+	</Entry>
+</Root>

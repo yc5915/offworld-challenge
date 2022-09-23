@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<LangVersion>10.0</LangVersion>
+		<UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+		<BaseOutputPath>..\bin\</BaseOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj" />
+	  <ProjectReference Include="..\Assembly-CSharp\Assembly-CSharp.csproj" />
+	  <ProjectReference Include="..\Offworld.Algorithms\Offworld.Algorithms.csproj" />
+	  <ProjectReference Include="..\Offworld.MyGameCore\Offworld.MyGameCore.csproj" />
+	</ItemGroup>
+
+</Project>

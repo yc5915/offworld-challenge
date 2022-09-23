@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Root>
+  <Entry>
+    <zType>DIRECTION_NORTHWEST</zType>
+  </Entry>
+  <Entry>
+    <zType>DIRECTION_NORTHEAST</zType>
+  </Entry>
+  <Entry>
+    <zType>DIRECTION_EAST</zType>
+  </Entry>
+  <Entry>
+    <zType>DIRECTION_SOUTHEAST</zType>
+  </Entry>
+  <Entry>
+    <zType>DIRECTION_SOUTHWEST</zType>
+  </Entry>
+  <Entry>
+    <zType>DIRECTION_WEST</zType>
+  </Entry>
+</Root>

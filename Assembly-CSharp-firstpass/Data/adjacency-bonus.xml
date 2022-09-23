@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType>ADJACENCY_BONUS_0</zType>
+		<iBonusModifier>100</iBonusModifier>
+	</Entry>
+	<Entry>
+		<zType>ADJACENCY_BONUS_1</zType>
+		<iBonusModifier>150</iBonusModifier>
+	</Entry>
+	<Entry>
+		<zType>ADJACENCY_BONUS_2</zType>
+		<iBonusModifier>175</iBonusModifier>
+	</Entry>
+	<Entry>
+		<zType>ADJACENCY_BONUS_3</zType>
+		<iBonusModifier>185</iBonusModifier>
+	</Entry>
+	<Entry>
+		<zType>ADJACENCY_BONUS_4</zType>
+		<iBonusModifier>190</iBonusModifier>
+	</Entry>
+	<Entry>
+		<zType>ADJACENCY_BONUS_5</zType>
+		<iBonusModifier>195</iBonusModifier>
+	</Entry>
+	<Entry>
+		<zType>ADJACENCY_BONUS_6</zType>
+		<iBonusModifier>200</iBonusModifier>
+	</Entry>
+</Root>

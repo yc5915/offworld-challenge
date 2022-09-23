@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType>SCENARIO_DIFFICULTY_EASY</zType>
+		<Name>TEXT_SCENARIO_DIFFICULTY_EASY</Name>
+        <iScoreValue>1</iScoreValue>
+        <bAchievement>1</bAchievement>
+	</Entry>
+	<Entry>
+		<zType>SCENARIO_DIFFICULTY_NORMAL</zType>
+		<Name>TEXT_SCENARIO_DIFFICULTY_NORMAL</Name>
+        <iScoreValue>50</iScoreValue>
+        <bAchievement>1</bAchievement>
+  </Entry>
+	<Entry>
+		<zType>SCENARIO_DIFFICULTY_HARD</zType>
+        <Name>TEXT_SCENARIO_DIFFICULTY_HARD</Name>
+        <iScoreValue>100</iScoreValue>
+        <bAchievement>1</bAchievement>
+  </Entry>
+</Root>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType>BLACKMARKETCLASS_FROZEN</zType>
+	</Entry>
+	<Entry>
+		<zType>BLACKMARKETCLASS_SINGLE</zType>
+	</Entry>
+</Root>

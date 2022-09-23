@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType>WIND_VERY_WEAK</zType>
+		<Name>TEXT_WIND_VERY_WEAK</Name>
+		<Asset/>
+	</Entry>
+	<Entry>
+		<zType>WIND_WEAK</zType>
+		<Name>TEXT_WIND_WEAK</Name>
+		<Asset>ASSET_WIND_WEAK</Asset>
+	</Entry>
+	<Entry>
+		<zType>WIND_MODERATE</zType>
+		<Name>TEXT_WIND_MODERATE</Name>
+		<Asset>ASSET_WIND_MODERATE</Asset>
+	</Entry>
+	<Entry>
+		<zType>WIND_STRONG</zType>
+		<Name>TEXT_WIND_STRONG</Name>
+		<Asset>ASSET_WIND_STRONG</Asset>
+	</Entry>
+	<Entry>
+		<zType>WIND_VERY_STRONG</zType>
+		<Name>TEXT_WIND_VERY_STRONG</Name>
+		<Asset>ASSET_WIND_VERY_STRONG</Asset>
+	</Entry>
+</Root>

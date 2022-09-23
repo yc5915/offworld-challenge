@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType>LATITUDE_NORTH</zType>
+		<Name>TEXT_LATITUDE_NORTH</Name>
+		<iBase>120</iBase>
+		<iRange>40</iRange>
+		<iDieRoll>10</iDieRoll>
+		<iIceModifier/>
+		<LocationText>
+			<Pair>
+				<zIndex>LOCATION_MARS</zIndex>
+				<zValue>TEXT_LATITUDE_NORTH_MARS</zValue>
+			</Pair>
+		</LocationText>
+	</Entry>
+	<Entry>
+		<zType>LATITUDE_EQUATOR</zType>
+		<Name>TEXT_LATITUDE_EQUATOR</Name>
+		<iBase>70</iBase>
+		<iRange>40</iRange>
+		<iDieRoll>20</iDieRoll>
+		<iIceModifier>-50</iIceModifier>
+		<LocationText/>
+	</Entry>
+	<Entry>
+		<zType>LATITUDE_SOUTH</zType>
+		<Name>TEXT_LATITUDE_SOUTH</Name>
+		<iBase>20</iBase>
+		<iRange>40</iRange>
+		<iDieRoll>10</iDieRoll>
+		<iIceModifier/>
+		<LocationText>
+			<Pair>
+				<zIndex>LOCATION_MARS</zIndex>
+				<zValue>TEXT_LATITUDE_SOUTH_MARS</zValue>
+			</Pair>
+		</LocationText>
+	</Entry>
+</Root>

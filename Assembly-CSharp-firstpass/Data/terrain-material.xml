@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Root>
+    <Entry>
+        <zType>TERRAIN_MATERIAL_CRATERS</zType>
+    </Entry>
+    <Entry>
+        <zType>TERRAIN_MATERIAL_HILLS</zType>
+    </Entry>
+    <Entry>
+        <zType>TERRAIN_MATERIAL_EDGES</zType>
+    </Entry>
+    <Entry>
+        <zType>TERRAIN_MATERIAL_SCULPTED_HILLS</zType>
+    </Entry>
+    <Entry>
+        <zType>TERRAIN_MATERIAL_CANYON_EDGES</zType>
+    </Entry>
+    <Entry>
+        <zType>TERRAIN_MATERIAL_CAVES</zType>
+    </Entry>
+    <Entry>
+        <zType>TERRAIN_MATERIAL_LAKES</zType>
+    </Entry>
+    <Entry>
+        <zType>TERRAIN_MATERIAL_LOCATION_HILLS</zType>
+    </Entry>
+</Root>

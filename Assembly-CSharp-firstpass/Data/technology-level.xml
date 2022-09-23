@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType>TECHNOLOGYLEVEL_NONE</zType>
+		<Name>TEXT_TECHNOLOGYLEVEL_NONE</Name>
+		<zIconName>TECHNOLOGYLEVEL_NONE</zIconName>
+		<iModifier/>
+		<HQClaims/>
+	</Entry>
+	<Entry>
+		<zType>TECHNOLOGYLEVEL_IMPROVED</zType>
+		<Name>TEXT_TECHNOLOGYLEVEL_IMPROVED</Name>
+		<zIconName>TECHNOLOGYLEVEL_IMPROVED</zIconName>
+		<iModifier>25</iModifier>
+		<HQClaims/>
+	</Entry>
+	<Entry>
+		<zType>TECHNOLOGYLEVEL_EFFICIENT</zType>
+		<Name>TEXT_TECHNOLOGYLEVEL_EFFICIENT</Name>
+		<zIconName>TECHNOLOGYLEVEL_EFFICIENT</zIconName>
+		<iModifier>50</iModifier>
+		<HQClaims/>
+	</Entry>
+	<Entry>
+		<zType>TECHNOLOGYLEVEL_ADVANCED</zType>
+		<Name>TEXT_TECHNOLOGYLEVEL_ADVANCED</Name>
+		<zIconName>TECHNOLOGYLEVEL_ADVANCED</zIconName>
+		<iModifier>75</iModifier>
+		<HQClaims/>
+	</Entry>
+	<Entry>
+		<zType>TECHNOLOGYLEVEL_PERFECT</zType>
+		<Name>TEXT_TECHNOLOGYLEVEL_PERFECT</Name>
+		<zIconName>TECHNOLOGYLEVEL_PERFECT</zIconName>
+		<iModifier>100</iModifier>
+		<HQClaims>
+			<Pair>
+				<zIndex>HQ_ELITE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</HQClaims>
+	</Entry>
+</Root>

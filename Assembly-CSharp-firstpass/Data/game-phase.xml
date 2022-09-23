@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Root>
+  <Entry>
+    <zType>GAMEPHASE_SCAN</zType>
+  </Entry>
+  <Entry>
+    <zType>GAMEPHASE_FOUNDED</zType>
+  </Entry>
+</Root>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraterPresets>
+  <Entry>
+    <id>0</id>
+    <width>4</width>
+    <weighting>1000</weighting>
+    <centerTiles>________________</centerTiles>
+    <slopes>XXX_XXXXXXX__XX_</slopes>
+    <chunkID>199 199 199 199 199 199 216 199 199 199 199 199 199 199 199 199 </chunkID>
+    <chunkDir>0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 </chunkDir>
+  </Entry>
+  <Entry>
+    <id>1</id>
+    <width>5</width>
+    <weighting>10000</weighting>
+    <centerTiles>_________________________</centerTiles>
+    <slopes>XXXX_XXXXXXXXX__XXX__XX__</slopes>
+    <chunkID>199 199 199 199 199 199 199 224 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 </chunkID>
+    <chunkDir>0 0 0 0 0 0 0 3 0 0 0 5 1 0 0 0 0 0 0 0 0 0 0 0 0 </chunkDir>
+  </Entry>
+  <Entry>
+    <id>2</id>
+    <width>5</width>
+    <weighting>10000</weighting>
+    <centerTiles>____________X____________</centerTiles>
+    <slopes>_XXX__XXXXXX_XX_XXXX_XXX_</slopes>
+    <chunkID>199 199 199 199 199 199 199 199 217 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 </chunkID>
+    <chunkDir>0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </chunkDir>
+  </Entry>
+  <Entry>
+    <id>3</id>
+    <width>6</width>
+    <weighting>10000</weighting>
+    <centerTiles>______________XX_____X______________</centerTiles>
+    <slopes>_XXXX__XXXXXXX__XX_XX_XX_XXXX___XXX_</slopes>
+    <chunkID>199 199 199 199 199 199 199 199 199 215 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 </chunkID>
+    <chunkDir>0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 </chunkDir>
+  </Entry>
+  <Entry>
+    <id>4</id>
+    <width>7</width>
+    <weighting>10000</weighting>
+    <centerTiles>________________XX_____XXX____XX_________________</centerTiles>
+    <slopes>_XXXX___XXXXX_XX__XX_XX___XXXX__XX__XXXXX__XXXX__</slopes>
+    <chunkID>199 199 199 199 199 199 199 199 199 199 218 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 </chunkID>
+    <chunkDir>0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 4 0 0 2 0 0 0 0 0 0 0 0 0 0 5 0 0 1 0 0 0 0 0 6 0 0 0 0 0 0 0 0 0 0 </chunkDir>
+  </Entry>
+  <Entry>
+    <id>5</id>
+    <width>9</width>
+    <weighting>10000</weighting>
+    <centerTiles>_____________________XXX______XXXX____XXXXX_____XXXX_____XXX_____________________</centerTiles>
+    <slopes>__XXXXX____XXXXXX__XX___XX__XX____XXXX_____XX_XX____XX_XX___XX___XXXXXX___XXXXX__</slopes>
+    <chunkID>199 199 199 199 199 199 199 199 199 199 199 199 199 199 219 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 </chunkID>
+    <chunkDir>0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 </chunkDir>
+  </Entry>
+  <Entry>
+    <id>6</id>
+    <width>11</width>
+    <weighting>10000</weighting>
+    <centerTiles>_________________________XXXX_______XXXXX_____XXXXXX_____XXXXXXX____XXXXXX______XXXXX______XXXX__________________________</centerTiles>
+    <slopes>__XXXXXX_____XXXXXXX___XX____XX___XX_____XX_XX______XX_XX_______XXXX______XX__XX_____XX__XX____XX____XXXXXXX____XXXXXX___</slopes>
+    <chunkID>199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 220 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 </chunkID>
+    <chunkDir>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </chunkDir>
+  </Entry>
+  <Entry>
+    <id>7</id>
+    <width>9</width>
+    <weighting>5000</weighting>
+    <centerTiles>______________________XX______XXXX_____XXX_______XX______X_______________________</centerTiles>
+    <slopes>___XXXX___XXXXXXX_XXXX__XX__XX____XX_XX___XX__XXX__XX_XXX_XXX___XXXXXX___XXXX____</slopes>
+    <chunkID>199 199 199 199 199 199 199 199 199 199 199 199 199 199 222 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 </chunkID>
+    <chunkDir>0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 5 3 3 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 5 3 0 6 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </chunkDir>
+  </Entry>
+  <Entry>
+    <id>8</id>
+    <width>7</width>
+    <weighting>5000</weighting>
+    <centerTiles>_________________X_____XX_____XX________________________</centerTiles>
+    <slopes>__XXXX__XXXXXXXXX_XX_XX__XX_XX__XX__XXXXX__XXXX_____XX__</slopes>
+    <chunkID>199 199 199 199 199 199 199 199 199 199 199 221 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 </chunkID>
+    <chunkDir>0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 1 0 0 0 0 0 0 1 0 0 0 5 0 0 0 0 0 0 0 0 5 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </chunkDir>
+  </Entry>
+  <Entry>
+    <id>9</id>
+    <width>6</width>
+    <weighting>5000</weighting>
+    <centerTiles>______________XX____________________</centerTiles>
+    <slopes>XXXXX_XXXXXXXX__XX_XXXXX_XXXX____XX_</slopes>
+    <chunkID>199 199 199 199 199 199 199 199 223 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 199 </chunkID>
+    <chunkDir>0 0 0 0 0 0 0 0 3 3 0 0 0 5 0 0 0 0 0 0 0 5 1 0 0 0 0 0 0 0 0 0 0 0 0 0 </chunkDir>
+  </Entry>
+  <Entry>
+    <id>10</id>
+    <width>1</width>
+    <weighting>40000</weighting>
+    <centerTiles>_</centerTiles>
+    <slopes>X</slopes>
+    <chunkID>225</chunkID>
+    <chunkDir>3</chunkDir>
+  </Entry>
+  <Entry>
+    <id>11</id>
+    <width>2</width>
+    <weighting>36000</weighting>
+    <centerTiles>______</centerTiles>
+    <slopes>X_XXX_</slopes>
+    <chunkID>199 199 199 226 199 199 </chunkID>
+    <chunkDir>0 0 0 3 0 0 </chunkDir>
+  </Entry>
+  <Entry>
+    <id>12</id>
+    <width>3</width>
+    <weighting>28000</weighting>
+    <centerTiles>_________</centerTiles>
+    <slopes>XX_XXXXX_</slopes>
+    <chunkID>199 199 199 199 199 227 199 199 199 </chunkID>
+    <chunkDir>0 0 0 0 0 3 0 0 0 </chunkDir>
+  </Entry>
+</CraterPresets>

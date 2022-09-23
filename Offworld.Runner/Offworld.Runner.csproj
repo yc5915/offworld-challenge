@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+		<BaseOutputPath>..\bin\</BaseOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Offworld.Algorithms\Offworld.Algorithms.csproj" />
+	  <ProjectReference Include="..\Offworld.Challenge\Offworld.Challenge.csproj" />
+	</ItemGroup>
+
+</Project>

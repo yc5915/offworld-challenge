@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Root>
+	<Entry>
+		<zType>HEIGHT_VERY_LOW</zType>
+		<Name>TEXT_HEIGHT_VERY_LOW</Name>
+    <Asset/>
+	</Entry>
+	<Entry>
+		<zType>HEIGHT_LOW</zType>
+		<Name>TEXT_HEIGHT_LOW</Name>
+    <Asset>ASSET_HEIGHT_LOW</Asset>
+	</Entry>
+	<Entry>
+		<zType>HEIGHT_MEDIUM</zType>
+		<Name>TEXT_HEIGHT_MEDIUM</Name>
+    <Asset>ASSET_HEIGHT_MEDIUM</Asset>
+  </Entry>
+  <Entry>
+    <zType>HEIGHT_HIGH</zType>
+    <Name>TEXT_HEIGHT_HIGH</Name>
+    <Asset>ASSET_HEIGHT_HIGH</Asset>
+  </Entry>
+  <Entry>
+    <zType>HEIGHT_VERY_HIGH</zType>
+    <Name>TEXT_HEIGHT_VERY_HIGH</Name>
+    <Asset>ASSET_HEIGHT_VERY_HIGH</Asset>
+  </Entry>
+</Root>
