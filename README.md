@@ -78,7 +78,7 @@ See [Offworld-Mods Repo](https://github.com/the-innovation-game/offworld-mods) f
 
 
 ## Support
-[Join our Discord](https://discord.gg/YTJGVpZD)
+[Join our Discord](http://discord.the-innovation-game.com)
 
 ## License
 
