@@ -1,5 +1,5 @@
 name: Actions
-on: [push]
+on: [push, pull_request]
 env:
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -24,8 +24,8 @@ jobs:
         with:
           dotnet-version: "6.0.x"
       - run: |
-          branch=${{ github.ref_name }}
-          if [[ "$branch" =~ ^[0-9a-zA-Z]+/algorithm/[0-9a-zA-Z]+$ ]]; then
+          branch=${{ github.head_ref }}
+          if [[ "$branch" =~ ^.+/algorithm/.+$ ]]; then
             dotnet build -o app
             cd app
             ./Offworld.Runner $(echo $branch | cut -d "/" -f 3) false 10
